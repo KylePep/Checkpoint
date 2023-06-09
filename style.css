@@ -16,18 +16,6 @@ header {
   position: revert;
 }
 
-/* @media (min-width: 768px) {
-  .floating-card {
-    position: revert;
-  }
-} */
-
-/* @media (min-width: 992px) {
-  .floating-card {
-    position: revert;
-  }
-} */
-
 @media (min-width: 768px) {
   .floating-card {
     position: absolute;
@@ -39,6 +27,11 @@ header {
 
 .box-card {
   border-radius: 15px;
+  box-shadow: 7px 5px 10px black;
+}
+
+.box-card:hover {
+  scale: 102%;
 }
 
 .main-image {
@@ -46,8 +39,5 @@ header {
   min-height: 40vh;
   max-height: 80vh;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 5px;
 }
-
-/* 
-.review-card {} */
