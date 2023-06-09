@@ -32,19 +32,20 @@
   }
 </style>
 
-<body class="">
+<body data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offest="0" data-bs-smooth-scroll="true"
+  class="scrollspy-example" tabindex="0">
 
   <!-- SECTION HEADER -->
   <header class="sticky-top">
-    <section class="row d-flex flex-column flex-md-row justify-content-between bg-primary pt-3 pb-1 box-header">
+    <section class="row d-flex flex-column flex-md-row justify-content-between bg-success pt-3 pb-1 box-header">
       <div class="col-12 col-md-6 d-flex  justify-content-start px-5 button-header">
         <i class="mdi mdi-format-color-fill fs-1"></i>
         <h1>TITLE PENDING</h1>
       </div>
-      <div class="col-12 col-md-6 d-flex justify-content-around">
-        <h2 class="button-header">Form</h2>
-        <h2 class="button-header">Dog</h2>
-        <h2 class="button-header">Reviews</h2>
+      <div id="simple-list-example" class="col-12 col-md-6 d-flex justify-content-around simple-list-example-scrollspy">
+        <a class="p-1 rounded fs-1" href="#simple-list-item-1">Form</a>
+        <a class="p-1 rounded fs-1" href="#simple-list-item-2">Dog</a>
+        <a class="p-1 rounded fs-1" href="#simple-list-item-3">Reviews</a>
       </div>
     </section>
   </header>
@@ -53,8 +54,9 @@
   <main>
     <!-- SECTION FORM AND BG IMAGE -->
     <section class="row header-bg-img justify-content-around align-items-top p-5">
+      <div id="simple-list-item-3"></div>
       <div class="col-12 col-md-4 my-5 d-flex flex-column">
-        <p class="ps-1 ps-md-5 text-primary">subtle heading</p>
+        <p class="ps-1 ps-md-2 text-primary">subtle heading</p>
         <div class="bg-light px-3 px-md-5 py-4 box-card">
           <h4>Less Subtle Heading</h4>
           <form>
@@ -87,17 +89,17 @@
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              <label class="form-check-label" for="exampleCheck1">Dogs are better than cats</label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
       </div>
-      <div class="col-5 my-5 mx-5 d-flex d-none d-md-block">
+      <div class="col-5 my-5 mx-5 d-none d-md-flex">
         <i class="mdi mdi-chart-bubble fs-1 text-primary"></i>
         <div>
-          <h1>Text Over an Image</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, deleniti.</p>
+          <h1 class="text-shadow">Text Over an Image</h1>
+          <p class="text-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, deleniti.</p>
         </div>
       </div>
     </section>
@@ -140,6 +142,7 @@
 
     <!--  SECTION IMAGE AND TEXTBOX W/ICON & BUTTON -->
     <section class="row d-flex justify-content-around ">
+      <div id="simple-list-item-2"></div>
       <!-- <div class="col-12 col-md-4 p-3">
         <img class="main-image"
           src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
@@ -166,6 +169,7 @@
 
     <!-- SECTION ROW OF CARDS CENTER EMPHASIZED -->
     <section class="row bg-dark p-5 d-flex align-items-center justify-content-around">
+      <div id="simple-list-item-3"></div>
       <div
         class="order-2 order-md-1 col-12 col-md-3 bg-light mb-5 px-5 py-4 d-flex flex-column align-items-center box-card">
         <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, nobis aliquid. Vel, blanditiis deserunt

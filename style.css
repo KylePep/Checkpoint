@@ -12,6 +12,10 @@ header {
   max-height: 120vh;
 }
 
+.text-shadow {
+  text-shadow: white 1px 0 10px;
+}
+
 .floating-card {
   position: revert;
 }
