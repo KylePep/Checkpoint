@@ -29,6 +29,14 @@ header {
   }
 }
 
+.header-link {
+  text-decoration: none;
+}
+
+.header-link:hover {
+  scale: 102%;
+}
+
 .button-header {}
 
 .button-header:hover {
