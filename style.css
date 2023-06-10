@@ -13,6 +13,11 @@ header {
   width: 50px;
 }
 
+.announcer-icon {
+  height: 100px;
+  width: 100px;
+}
+
 .header-bg-img {
   background-image: url(https://i.pinimg.com/564x/28/ef/1a/28ef1a03ecbcccfd06494729d5124932.jpg);
   background-repeat: no-repeat;
