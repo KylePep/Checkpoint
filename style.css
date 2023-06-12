@@ -1,7 +1,7 @@
 /* medium break point is >= 768 */
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 :root {
   --darkest: #993B2A;
