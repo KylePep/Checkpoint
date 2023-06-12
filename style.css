@@ -1,11 +1,14 @@
 /* medium break point is >= 768 */
+body {
+  overflow-x: hidden;
+}
 
 :root {
-  --darkest: #0C2A4A;
-  --dark: #1E234F;
-  --main: #FF6000;
-  --lighter: #0D4570;
-  --lightest: #F5F0EF;
+  --darkest: #993B2A;
+  --darker: #956E2F;
+  --main: #11335B;
+  --lighter: #5DAB99;
+  --lightest: #dfdec2;
 }
 
 header {
@@ -18,7 +21,7 @@ header {
 }
 
 .bg-darker {
-  background-color: var(--dark);
+  background-color: var(--darker);
 }
 
 .bg-main {
@@ -38,17 +41,22 @@ header {
   color: var(--main);
 }
 
+.text-lighter {
+  color: var(--lighter)
+}
+
 .text-lightest {
   color: var(--lightest);
+}
+
+.text-darker {
+  color: var(--darker);
 }
 
 .text-darkest {
   color: var(--darkest);
 }
 
-.text-lighter {
-  color: var(--lighter)
-}
 
 .logo-img {
   height: 50px;
